@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/public/stylesheets/Style-Final.css" type="text/css">
+    <link rel="shortcut icon" type="image/png" href="/public/images/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+
+
+    <title>Moxa Panchal</title>
+</head>
+
+<body>
+
+    <nav class="navbar r-height">
+        <ul class="list r-visibility">
+            <div class="logo">
+                <a href="/html/index.html"><img src="/public/images/logo.png" alt="Logo" id="image"></a>
+            </div>
+
+            <li> <a href="/html/index.html" class="animation"> Home</a></li>
+            <li> <a href="/html/services.html" class="animation"> Services</a></li>
+            <li> <a href="/html/projects.html" class="animation"> Projects</a></li>
+            <li> <a href="/html/contact.html" class="animation"> Contact Me</a></li>
+        </ul>
+
+        <div class="menu">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+   
+        <section class="indexSection1">
+            <div class="content">
+                <span class="hi"> Hey there....</span>
+    
+                <!-- using tyoped.js for looping -->
+                <h4><span id="typed"></span></h4>
+    
+                <p class="txt">Creative web designer and developer</p>
+                <a href="#Section"><button class="btn">About Me</button></a>
+            </div>
+        </section>
+  
+    
+
+
+    <div class="background2">
+        <section class="indexSection2" id="Section">
+           <div class="container">
+
+                <div class="content1">
+                    <div class="info">
+                        <p class="title">About Me</p>
+                        <p class="subText">Responsible and organized college student having proficiency in web
+                            development,
+                            and
+                            database management. Excellent leadership, communication, and problem-solving skills.
+                            Looking
+                            for a
+                            co-op position in a reputed compay.</p>
+                    </div>
+                    <img src="/public/images/myImg.jpg" alt="profile image" class="imgFluid">
+                </div>
+
+                <div class="content2">
+                    <div class="info2">
+                        <p class="title">Work</p>
+                        <p class="subText"> FullStack Web Development</p>
+                    </div>
+                    <div class="info2">
+                        <p class="title">Freelance</p>
+                        <ul class="subText">Available</ul>
+                    </div>
+                </div>
+
+                <div class="button">
+                    <a href="/public/resume.pdf" target="_blank"><button class="btn">Resume</button></a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <div class="footer">
+        <footer>
+            <div class="socialMedia">
+                <a href="https://www.linkedin.com/in/moxa-panchal/" target="_blank" class="fab fa-linkedin"></a>
+                <a href="https://github.com/moxaPanchal" target="_blank" class="fab fa-github"></a>
+                <a href="https://www.instagram.com/panchal.moxa/" target="_blank" class="fab fa-instagram"></a>
+            </div>
+            <p class="copyright">Moxa Panchal © 2021</p>
+        </footer>
+    </div>
+
+
+    <!-- Script Section -->
+    <script src="/scripts/app.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        // <!-- Animation through a javascript library Typed.js -->
+
+        var typed = new Typed(document.getElementById("typed"), {
+            strings: ["My name Is Moxa Panchal", "I am a FullStack Developer"],
+            typeSpeed: 150,
+            backSpeed: 100,
+            backDelay: 200,
+            // smartBackspace: true, // this is a default
+            loop: true,
+        });
+    </script>
+
+    <script src="/public/scripts/responsive.js"></script>
+
+</body>
+
+</html>
