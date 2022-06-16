@@ -16,9 +16,9 @@ app.get('/projects', (req, res) => {
     res.sendFile(path.resolve(__dirname, 'html/projects.html'))
   })
 
-/* GET services page. */
-app.get('/services', (req, res) => {
-    res.sendFile(path.resolve(__dirname, 'html/services.html'))
+/* GET skills page. */
+app.get('/skills', (req, res) => {
+    res.sendFile(path.resolve(__dirname, 'html/skills.html'))
   })
 
 /* GET contact page. */

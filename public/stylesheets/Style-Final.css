@@ -345,9 +345,10 @@ button {
 
 /* Service Page */
 
-.serviceSection {
+.skillsSection {
     position: relative;
-    background: rgba(0, 0, 0, 0.5) url('/public/images/bg2.jpg');
+    background: #1d1b1b;
+    background: rgba(0, 0, 0, 0.75) url('/public/images/bg2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: darken;
@@ -374,55 +375,56 @@ button {
     text-transform: uppercase;
 }
 
-.serviceSection .box-container {
+.skillsSection .box-container {
 
     display: flex;
     flex-wrap: wrap;
-    gap: 1.5rem;
+    gap: 2.5rem;
 }
 
-.serviceSection .box-container .box {
+.skillsSection .box-container .box {
     flex: 1 1 30rem;
     text-align: center;
-    padding: 2rem;
+    padding: 1rem;
     color: white;
     border-radius: .5rem;
-    background-image: linear-gradient(#373739, #373739);
+    background-image: linear-gradient(#302f2f, #000000);
     background-repeat: no-repeat;
     background-size: 0% 100%;
     background-position-x: right;
     transition: background-size 500ms;
-    box-shadow: 0 0 8px rgb(250, 250, 250, 0.6);
+    box-shadow: 0 0 8px rgb(255, 255, 255);
     opacity: 0.8;
 }
 
-.serviceSection .box-container .box:hover{
+.skillsSection .box-container .box:hover{
    background-size: 100% 100%;
    background-position-x: left;
 }
 
-.serviceSection .box-container .box i {
+.skillsSection .box-container .box i {
     height: 6rem;
     width: 6rem;
     line-height: 6rem;
     font-size: 2.5rem;
-    color: white;
     border-radius: 50%;
 
 }
 
-.serviceSection .box-container .box h3 {
-    color: white;
+.skillsSection .box-container .box h3 {
     font-size: 2.2rem;
     padding-top: 1rem;
 }
 
-.serviceSection .box-container .box p {
-    color: white;
+.skillsSection .box-container .box .box-skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
     font-size: 1.7rem;
-    padding-top: .5rem;
 }
-
+.skillsSection .box-container .box .box-icons {
+    padding: 1rem;
+}
 
 /* Projects */
 .projectSection {
@@ -462,13 +464,21 @@ button {
 
 .projectSection .box-container .box {
     flex: 1 1 30rem;
-    text-align: center;
     padding: 2rem;
     color: white;
     border-radius: .5rem;
     background: #373739;
     box-shadow: 0 0 8px rgb(250, 250, 250, 0.6);
     opacity: 0.8;
+}
+
+.projectSection.box-container .box h3{
+    text-align: center;
+    /* padding: 2rem; */
+}
+.projectSection.box-container .box p{
+    text-align: left;
+    padding: 2rem;
 }
 
 .projectSection .box-container .box i {

@@ -1,90 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="/public/stylesheets/Style-Final.css"
+      type="text/css"
+    />
+    <link rel="shortcut icon" type="image/png" href="/public/images/logo.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    />
 
-    <link rel="stylesheet" href="/public/stylesheets/Style-Final.css" type="text/css">
-    <link rel="shortcut icon" type="image/png" href="/public/images/logo.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
-
-   
     <title>Moxa Panchal</title>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <nav class="navbar r-height">
-        <ul class="list r-visibility">
-            <div class="logo">
-                <a href="/html/index.html"><img src="/public/images/logo.png" alt="Logo" id="image"></a>
-            </div>
-
-            <li> <a href="/html/index.html" class="animation"> Home</a></li>
-            <li> <a href="/html/services.html" class="animation"> Services</a></li>
-            <li> <a href="/html/projects.html" class="animation"> Projects</a></li>
-            <li> <a href="/html/contact.html" class="animation"> Contact Me</a></li>
-        </ul>
-
-        <div class="menu">
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
+      <ul class="list r-visibility">
+        <div class="logo">
+          <a href="/html/index.html"
+            ><img src="/public/images/logo.png" alt="Logo" id="image"
+          /></a>
         </div>
+
+        <li><a href="/html/index.html" class="animation"> Home</a></li>
+        <li><a href="/html/skills.html" class="animation"> Skills</a></li>
+        <li><a href="/html/projects.html" class="animation"> Projects</a></li>
+        <li><a href="/html/contact.html" class="animation"> Contact Me</a></li>
+      </ul>
+
+      <div class="menu">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
     </nav>
 
-    <section class="projectSection ">
+    <section class="projectSection">
+      <h1 class="heading"><span>My</span> Projects</h1>
 
-        <h1 class="heading">
-            <span>My</span> Projects
-        </h1>
-
-        <!-- mulitple display box for services -->
-        <div class="box-container">
-            <div class="box">
-                <div class="icons">
-                    <a href="https://register--user.herokuapp.com/" target=”_blank”
-                        class="fas fa-link"></a>
-                </div>
-                <h3> Authentication </h3> <br>
-                <p>With the help of PHP, and MySQL I made a simple registration and authentication website. 
-                    Which also sends emails to the user to verify their email.</p>
-
-            </div>
-
-            <div class="box">
-                <div class="icons">
-                    <a href="https://github.com/moxaPanchal/Rest-API-" target=”_blank” class="fas fa-link"></a>
-                </div>
-                <h3> Rest API</h3> <br>
-                <p>As a part of my learning experience I have made a RestAPI with CRUD functionality, using Node.js</p>
-            </div>
-
-            <div class="box">
-                <div class="icons">
-                    <a href="https://moxapanchal.herokuapp.com/" target=”_blank” class="fas fa-link"></a>
-                </div>
-                <h3> Responsive-Portfolio-Website </h3> <br>
-                <p>With the help of HTML, CSS and JavaScript, I have developed a full Responsive Website.</p>
-
-            </div>
-
-            <div class="box">
-                <div class="icons">
-                    <a href="https://github.com/moxaPanchal/Practice" target=”_blank” class="fas fa-link"></a>
-                </div>
-                <h3> Practice-Website </h3> <br>
-                <p>Simple Website made with HTML and CSS to understand the concept of a basic site Structure.</p>
-            </div>
+      <!-- multiple display box for skills -->
+      <div class="box-container">
+        <div class="box">
+          <div class="icons">
+            <a
+              href="https://github.com/moxaPanchal/Multi-Threaded-Server"
+              target="”_blank”"
+              class="fas fa-link"
+            ></a>
+          </div>
+          <h3>Chatting Interface</h3>
+          <br />
+          <p>
+            Built a Multi-threaded server, where single/Multiple client and
+            server presents a chatting interface by utilizing the concepts of
+            Functional programming, Socket programming, and Java networking.
+          </p>
         </div>
+
+        <div class="box">
+          <div class="icons">
+            <a
+              href="https://restaurant--locator.herokuapp.com/"
+              target="”_blank”"
+              class="fas fa-link"
+            ></a>
+          </div>
+          <h3>Restaurant Locator App</h3>
+          <br />
+          <p>
+            Created a React-based static application that displays a list of
+            different restaurants in the Boroughs of New York City and their
+            exact location on the map followed by ratings.
+          </p>
+          <br />
+          <p>Utilized react-leaflet to display a map.</p>
+        </div>
+
+        <div class="box">
+          <div class="icons">
+            <a
+              href="https://employee--login.herokuapp.com/"
+              target="”_blank”"
+              class="fas fa-link"
+            ></a>
+          </div>
+          <h3>Employee Workplace Login</h3>
+          <br />
+          <p>
+            Developed a web application, which allows employees to register and
+            log into the system.
+          </p>
+          <br />
+          <p>
+            Employees can upload pictures, add or remove employees and
+            departments. Moreover, a detailed information of user login history
+            can be seen by the employees.
+          </p>
+        </div>
+
+        <div class="box">
+          <div class="icons">
+            <a
+              href="https://github.com/moxaPanchal/Hospital-Patient-Management-System"
+              target="”_blank”"
+              class="fas fa-link"
+            ></a>
+          </div>
+          <h3>Collection of C++ Programs</h3>
+          <br />
+          <p>
+            Built some C++ programs purely using the high-level language C++,
+            which involves Assembly Line Simulation and Hospital Patient
+            Management Application. Utilizing object–oriented programming with
+            database integration.
+          </p>
+        </div>
+      </div>
     </section>
 
     <script src="/public/scripts/responsive.js"></script>
-</body>
-
-
-
-
+  </body>
 </html>
